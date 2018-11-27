@@ -28,7 +28,7 @@ type CacheEntry = {
   payload: string,
 };
 
-export const CACHE_DURATION_MINUTES = 60 * 24;
+export const CACHE_DURATION_MINUTES = 60 * 6;
 
 export class MemoryCache {
   private store: {[id: string]: CacheEntry} = {};
